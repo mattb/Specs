@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source_files = 'Core/Source'
   s.clean_paths = "Demo", "DTCoreText.xcodeproj"
-  s.framework = 'QuartzCoreFramework','CoreText'
+  s.framework = 'QuartzCore','CoreText'
   s.requires_arc = true
 
   def s.post_install(target)
